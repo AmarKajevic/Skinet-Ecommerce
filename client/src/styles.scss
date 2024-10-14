@@ -15,7 +15,7 @@ $customTheme:  mat.define-theme();
   }
 }
 .container {
-  @apply mx-auto max-w-screen-2xl px-4 mx-auto
+  @apply mx-auto max-w-screen-2xl px-4
 
 }
 .text-primary {
@@ -28,3 +28,15 @@ button.match-input-height {
 .mdc-notched-outline__notch{
   border-right-style: none !important
 }
+
+.mat-mdc-snack-bar-container.snack-error{
+  --mdc-snackbar-container-color: rgb(175, 47, 47);
+  --mat-snack-bar-button-color: #fff;
+  --mdc-snackbar-supporting-text-color: #fff
+}
+.mat-mdc-snack-bar-container.snack-success{
+  --mdc-snack-bar-container-color: rgb(40, 108, 40);
+  --mat-snack-bar-button-color: #fff;
+  --mdc-snackbar-supporting-text-color: #fff
+}
+
